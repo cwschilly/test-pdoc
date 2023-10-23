@@ -7,7 +7,8 @@ name = "pdoc-test"
 dynamic = ["version"]
 requires-python = ">=3.8"
 dependencies = [
-    'numpy', 'pdoc'
+    'docutils', 'numpy', 'pdoc',
+    'importlib-metadata'
 ]
 
 [tool.setuptools.dynamic]
